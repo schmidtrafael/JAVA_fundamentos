@@ -17,13 +17,9 @@ public class duraçãoTempoDeJogo {
         int duracao;
 
         if (horaInicioJogo < horaFimJogo) {
-
             duracao = horaFimJogo - horaInicioJogo;
-
         } else {
-
             duracao = 24 - horaInicioJogo + horaFimJogo;
-
         }
 
         System.out.printf("O tempo de duração do jogo foi de %d horas\n", duracao);
