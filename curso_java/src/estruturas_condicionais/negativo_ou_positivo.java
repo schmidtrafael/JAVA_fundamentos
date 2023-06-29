@@ -1,4 +1,4 @@
-package if_else;
+package estruturas_condicionais;
 
 import java.util.Scanner;
 
