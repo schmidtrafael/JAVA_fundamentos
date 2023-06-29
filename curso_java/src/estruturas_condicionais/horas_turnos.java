@@ -1,4 +1,4 @@
-package if_else;
+package estruturas_condicionais;
 
 import java.util.Scanner;
 
@@ -17,10 +17,10 @@ public class horas_turnos {
 		}
 		else {
 			if(hora < 18) {
-				System.out.println("Boa tarde");
+				System.out.println("Boa tarde!");
 			}
 			else {
-				System.out.println("Boa noite");
+				System.out.println("Boa noite!");
 
 			}
 		}

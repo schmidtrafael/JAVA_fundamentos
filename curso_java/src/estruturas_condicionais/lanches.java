@@ -1,4 +1,4 @@
-package if_else;
+package estruturas_condicionais;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class lanches {
 		System.out.println("Digite o código do produto:\n1-Dog 2-Xcarne 3-Xbacon 4-Misto 5-Coca");
 		int codigo = sc.nextInt();
 
-		System.out.println("Quantidade:");
+		System.out.println("Quantidade :");
 		int quantidade = sc.nextInt();
 		
 		double total;

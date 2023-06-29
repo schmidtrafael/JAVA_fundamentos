@@ -1,4 +1,4 @@
-package if_else;
+package estruturas_condicionais;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -31,7 +31,7 @@ public class impostoSalario {
 		}
 
 		if (imposto == 0.0) {
-			System.out.println("Você é isento");
+			System.out.println("Você é isento!");
 		}
 		else {
 			System.out.printf("Imposto sobre a renda R$ %.2f%n", imposto);
