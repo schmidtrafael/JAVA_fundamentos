@@ -8,7 +8,10 @@ public class lanches {
 
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Digite o código do produto:\n1-Dog 2-Xcarne 3-Xbacon 4-Misto 5-Coca");
 		int codigo = sc.nextInt();
+
+		System.out.println("Quantidade:");
 		int quantidade = sc.nextInt();
 		
 		double total;
