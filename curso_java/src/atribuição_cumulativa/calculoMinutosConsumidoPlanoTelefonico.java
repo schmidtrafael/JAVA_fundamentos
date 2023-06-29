@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class calculoMinutosConsumidoPlanoTelefonico {
 
+//a += b igual a = a + b
+//a -= b igual a = a - b
+//a *= b igual a = a * b
+//a /= b igual a = a / b
+//a %= b igual a = a % b
+
     public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -12,9 +18,10 @@ public class calculoMinutosConsumidoPlanoTelefonico {
         int minutoUtilizados = sc.nextInt();
 
         double conta = 50.0;
-        
+
         if (minutoUtilizados > 100){
-            conta = conta + (minutoUtilizados - 100) * 2.0;
+            //conta = conta + (minutoUtilizados - 100) * 2.0;
+            conta += (minutoUtilizados - 100) * 2.0;
         }
 
         System.out.printf("O valor total da conta é de %.2f!\n", conta);
